@@ -307,7 +307,7 @@ function App() {
               </div>
               
               <div className="form-group">
-                <label>Цена ($)</label>
+                <label>Цена (₽)</label>
                 <input
                   type="number"
                   step="0.01"
