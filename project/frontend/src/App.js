@@ -347,7 +347,7 @@ function App() {
             <div className="detail-card">
               <div className="detail-header">
                 <h3>{selectedItem.name}</h3>
-                <span className="detail-price">${parseFloat(selectedItem.price).toFixed(2)}</span>
+                <span className="detail-price">{parseFloat(selectedItem.price).toFixed(2)} ₽</span>
               </div>
               
               <div className="detail-content">
